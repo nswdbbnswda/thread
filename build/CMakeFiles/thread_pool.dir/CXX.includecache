@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lichao/lichao/thread/src/main.cc
+iostream
+-
+thread_pool.hpp
+/home/lichao/lichao/thread/src/thread_pool.hpp
+
+/home/lichao/lichao/thread/src/tcpserver.cc
+
+/home/lichao/lichao/thread/src/thread_pool.cc
+iostream
+-
+pthread.h
+-
+queue
+-
+
+/home/lichao/lichao/thread/src/thread_pool.hpp
+vector
+-
+deque
+-
+thread
+-
+functional
+-
+mutex
+-
+condition_variable
+-
+

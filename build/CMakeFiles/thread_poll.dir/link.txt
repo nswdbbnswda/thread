@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/thread_poll.dir/src/thread_pool.cc.o  -o thread_poll  -lpthread 

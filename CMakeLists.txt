@@ -4,6 +4,6 @@ PROJECT(THREAD)
 
 AUX_SOURCE_DIRECTORY(src DIR_MAIN)
 
-ADD_EXECUTABLE(thread_poll ${DIR_MAIN})
+ADD_EXECUTABLE(thread_pool ${DIR_MAIN})
 
-TARGET_LINK_LIBRARIES(thread_poll pthread)
+TARGET_LINK_LIBRARIES(thread_pool pthread)
