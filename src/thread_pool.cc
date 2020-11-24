@@ -19,7 +19,7 @@ void* work_thread(void *arg){
 	pthread_exit(0);
 }
 
-int main(){
+void init_thread_pool(int size){
 	pthread_t tids[POLL_SIZE];
 	for(int i = 0; i <  POLL_SIZE; i++){
 		task_queue.push(i);
@@ -27,12 +27,18 @@ int main(){
 	for(int i = 0; i < POLL_SIZE; i++){
 		pthread_create(&tids[i], NULL, work_thread, NULL);
 	}
-	cout<<task_queue.size()<<endl;
 	for(int i = 0; i < POLL_SIZE; i++){
 		pthread_join(tids[i], NULL);
 	}
+}
+
+void destroy(){
 	pthread_mutex_destroy(&mutex);
 	pthread_cond_destroy(&cond);
-	cout<<"This is main end"<<endl;
+}
+
+int main(){
+	init_thread_pool(POLL_SIZE);
+	destroy();
 	pthread_exit(0);
 }
