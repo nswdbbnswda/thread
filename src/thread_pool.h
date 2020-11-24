@@ -1,5 +1,5 @@
-#ifndef _thread_pool_HPP
-#define _thread_pool_HPP
+#ifndef _thread_pool_H
+#define _thread_pool_H
 
 #include <vector>
 #include <deque>

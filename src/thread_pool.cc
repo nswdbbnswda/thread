@@ -1,7 +1,7 @@
 #include <assert.h>
 #include <iostream>
 #include <sstream>
-#include "thread_pool.hpp"
+#include "thread_pool.h"
 
 namespace sola {
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lichao/lichao/thread/src/main.cc" "/home/lichao/lichao/thread/build/CMakeFiles/thread_pool.dir/src/main.cc.o"
+  "/home/lichao/lichao/thread/src/example.cc" "/home/lichao/lichao/thread/build/CMakeFiles/thread_pool.dir/src/example.cc.o"
   "/home/lichao/lichao/thread/src/tcpserver.cc" "/home/lichao/lichao/thread/build/CMakeFiles/thread_pool.dir/src/tcpserver.cc.o"
   "/home/lichao/lichao/thread/src/thread_pool.cc" "/home/lichao/lichao/thread/build/CMakeFiles/thread_pool.dir/src/thread_pool.cc.o"
   )

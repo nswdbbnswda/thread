@@ -123,32 +123,32 @@ thread_pool/fast:
 	$(MAKE) -f CMakeFiles/thread_pool.dir/build.make CMakeFiles/thread_pool.dir/build
 .PHONY : thread_pool/fast
 
-src/main.o: src/main.cc.o
+src/example.o: src/example.cc.o
 
-.PHONY : src/main.o
+.PHONY : src/example.o
 
 # target to build an object file
-src/main.cc.o:
-	$(MAKE) -f CMakeFiles/thread_pool.dir/build.make CMakeFiles/thread_pool.dir/src/main.cc.o
-.PHONY : src/main.cc.o
+src/example.cc.o:
+	$(MAKE) -f CMakeFiles/thread_pool.dir/build.make CMakeFiles/thread_pool.dir/src/example.cc.o
+.PHONY : src/example.cc.o
 
-src/main.i: src/main.cc.i
+src/example.i: src/example.cc.i
 
-.PHONY : src/main.i
+.PHONY : src/example.i
 
 # target to preprocess a source file
-src/main.cc.i:
-	$(MAKE) -f CMakeFiles/thread_pool.dir/build.make CMakeFiles/thread_pool.dir/src/main.cc.i
-.PHONY : src/main.cc.i
+src/example.cc.i:
+	$(MAKE) -f CMakeFiles/thread_pool.dir/build.make CMakeFiles/thread_pool.dir/src/example.cc.i
+.PHONY : src/example.cc.i
 
-src/main.s: src/main.cc.s
+src/example.s: src/example.cc.s
 
-.PHONY : src/main.s
+.PHONY : src/example.s
 
 # target to generate assembly for a file
-src/main.cc.s:
-	$(MAKE) -f CMakeFiles/thread_pool.dir/build.make CMakeFiles/thread_pool.dir/src/main.cc.s
-.PHONY : src/main.cc.s
+src/example.cc.s:
+	$(MAKE) -f CMakeFiles/thread_pool.dir/build.make CMakeFiles/thread_pool.dir/src/example.cc.s
+.PHONY : src/example.cc.s
 
 src/tcpserver.o: src/tcpserver.cc.o
 
@@ -213,9 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... thread_pool"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/example.o"
+	@echo "... src/example.i"
+	@echo "... src/example.s"
 	@echo "... src/tcpserver.o"
 	@echo "... src/tcpserver.i"
 	@echo "... src/tcpserver.s"

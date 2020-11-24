@@ -57,18 +57,18 @@ include CMakeFiles/thread_pool.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/thread_pool.dir/flags.make
 
-CMakeFiles/thread_pool.dir/src/main.cc.o: CMakeFiles/thread_pool.dir/flags.make
-CMakeFiles/thread_pool.dir/src/main.cc.o: ../src/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lichao/lichao/thread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/thread_pool.dir/src/main.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thread_pool.dir/src/main.cc.o -c /home/lichao/lichao/thread/src/main.cc
+CMakeFiles/thread_pool.dir/src/example.cc.o: CMakeFiles/thread_pool.dir/flags.make
+CMakeFiles/thread_pool.dir/src/example.cc.o: ../src/example.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lichao/lichao/thread/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/thread_pool.dir/src/example.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thread_pool.dir/src/example.cc.o -c /home/lichao/lichao/thread/src/example.cc
 
-CMakeFiles/thread_pool.dir/src/main.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/thread_pool.dir/src/main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lichao/lichao/thread/src/main.cc > CMakeFiles/thread_pool.dir/src/main.cc.i
+CMakeFiles/thread_pool.dir/src/example.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/thread_pool.dir/src/example.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lichao/lichao/thread/src/example.cc > CMakeFiles/thread_pool.dir/src/example.cc.i
 
-CMakeFiles/thread_pool.dir/src/main.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/thread_pool.dir/src/main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lichao/lichao/thread/src/main.cc -o CMakeFiles/thread_pool.dir/src/main.cc.s
+CMakeFiles/thread_pool.dir/src/example.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/thread_pool.dir/src/example.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lichao/lichao/thread/src/example.cc -o CMakeFiles/thread_pool.dir/src/example.cc.s
 
 CMakeFiles/thread_pool.dir/src/tcpserver.cc.o: CMakeFiles/thread_pool.dir/flags.make
 CMakeFiles/thread_pool.dir/src/tcpserver.cc.o: ../src/tcpserver.cc
@@ -98,14 +98,14 @@ CMakeFiles/thread_pool.dir/src/thread_pool.cc.s: cmake_force
 
 # Object files for target thread_pool
 thread_pool_OBJECTS = \
-"CMakeFiles/thread_pool.dir/src/main.cc.o" \
+"CMakeFiles/thread_pool.dir/src/example.cc.o" \
 "CMakeFiles/thread_pool.dir/src/tcpserver.cc.o" \
 "CMakeFiles/thread_pool.dir/src/thread_pool.cc.o"
 
 # External object files for target thread_pool
 thread_pool_EXTERNAL_OBJECTS =
 
-thread_pool: CMakeFiles/thread_pool.dir/src/main.cc.o
+thread_pool: CMakeFiles/thread_pool.dir/src/example.cc.o
 thread_pool: CMakeFiles/thread_pool.dir/src/tcpserver.cc.o
 thread_pool: CMakeFiles/thread_pool.dir/src/thread_pool.cc.o
 thread_pool: CMakeFiles/thread_pool.dir/build.make
